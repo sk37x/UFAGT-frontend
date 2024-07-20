@@ -30,8 +30,8 @@ function App() {
         <Box bg='black' h={{xxs:'auto', md:'229px'}} w='100%' pos='relative' p={{xxs:'lg', md:'sm'}}>
           <Box h='100%' pos='relative'>
             <Flex align={'center'} justify={'center'} w='100%' h='100%' pos='relative'>
-              <AspectRatio ratio={5} maw="432px" mah="432px" style={{zIndex:'99'}}>
-                <img src={'./images/GT-1.png'} alt='logo'  />
+              <AspectRatio ratio={4} maw="450px" mah="450px" style={{zIndex:'99'}}>
+                <img src={'./images/GT-logo.png'} alt='logo'   />
               </AspectRatio>
             </Flex>
         
