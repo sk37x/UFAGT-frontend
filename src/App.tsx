@@ -103,8 +103,9 @@ function App() {
 
 
             <Box w='100%' h='auto'  pos='relative'>
+                <img src={'./images/live_football.jpg'} alt='live_football' width='100%' height='100%' />
               <Flex align='center' justify='center' direction='column' gap={'lg'} h='700px' mb='50px'>
-                  <Title c='white' style={{cursor:'pointer', textDecoration:'underline'}} onClick={() => window.open('https://lfbtv.com/goatfootball/?k=GgjnsePSvN7Y2Jqb', '_blank')} ta='center'> &gt;&gt; ดูบอลสดคลิก !! &lt;&lt; </Title>
+                <Title c='white' style={{cursor:'pointer', textDecoration:'underline'}} onClick={() => window.open('https://lfbtv.com/goatfootball/?k=GgjnsePSvN7Y2Jqb', '_blank')} ta='center'> &gt;&gt; ดูบอลสดคลิก !! &lt;&lt; </Title>
                 <Box h='100%' maw="700px" w='100%'   onClick={() => {window.open('https://lfbtv.com/goatfootball/?k=GgjnsePSvN7Y2Jqb', '_blank') } }>
                   <iframe id="iframe-score108" width="100%" height='100%' style={{maxWidth:'700px', position:'relative', bottom:'0', maxHeight:'650px', pointerEvents:'none', borderRadius:'35px'}} frameBorder="0" scrolling="no" src="https://www.score108.com/soccer/scoreAPI" ref={iframeRef} ></iframe> 
                 </Box>
@@ -113,19 +114,19 @@ function App() {
             <Box w='100%' h='100%'>
                 <Flex align='center' justify='center' w='100%' h='100%' direction='column' gap={{md:'lg'}}>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro1.png'} alt='pro1' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro1.jpg'} className='img-pro' alt='pro1' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro2.png'} alt='pro2' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro2.jpg'} className='img-pro' alt='pro2' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro3.png'} alt='pro3' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro3.jpg'} className='img-pro' alt='pro3' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro4.png'} alt='pro4' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro4.jpg'} className='img-pro' alt='pro4' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro5.png'} alt='pro5' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro5.jpg'} className='img-pro' alt='pro5' width={'100%'} height={'100%'}/>
                     </Box>
                 </Flex>
 
