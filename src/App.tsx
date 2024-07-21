@@ -30,7 +30,7 @@ function App() {
         <Box bg='black' h={{xxs:'auto', md:'229px'}} w='100%' pos='relative' p={{xxs:'lg', md:'sm'}}>
           <Box h='100%' pos='relative'>
             <Flex align={'center'} justify={'center'} w='100%' h='100%' pos='relative'>
-              <AspectRatio ratio={4} maw="450px" mah="450px" style={{zIndex:'99'}}>
+              <AspectRatio ratio={4} maw={{xxs:"200px", md:"350px"}} mah={{xxs:"200px", md:"350px"}} style={{zIndex:'99'}}>
                 <img src={'./images/GT-logo.png'} alt='logo'   />
               </AspectRatio>
             </Flex>
@@ -42,8 +42,8 @@ function App() {
                 <img src={'./images/rec2.png'} alt='rec1'  width={'100%'} height='100%' />
               </Box> */}
             <Flex align={'center'} justify={'center'} w='100%'>
-              <Box w={{xxs:'100px', md:'450px'}} h='185px' bg='#FF0000CC' pos='absolute' bottom={0} style={{filter:'drop-shadow(0px 25px 40px red) blur(60px)', borderRadius:'200px', zIndex:'0'}} top='-132px' mr={{xxs:'100px', md:'250px'}}></Box>
-              <Box w={{xxs:'100px', md:'450px'}} h='185px' bg='#47A1F9' pos='absolute' bottom={0} style={{filter:'drop-shadow(0px 25px 40px red) blur(60px)', borderRadius:'200px', zIndex:'0'}} top='-132px' ml={{xxs:'100px', md:'250px'}}></Box>
+              <Box w={{xxs:'115px', md:'350px'}} h={{xxs:'85px', md:'155px'}} bg='#FF0000CC' pos='absolute' bottom={0} style={{filter:'drop-shadow(0px 25px 40px red) blur(60px)', borderRadius:'200px', zIndex:'0'}} top='-132px' mr={{xxs:'100px', md:'250px'}}></Box>
+              <Box w={{xxs:'115px', md:'350px'}} h={{xxs:'85px', md:'155px'}} bg='#47A1F9' pos='absolute' bottom={0} style={{filter:'drop-shadow(0px 25px 40px red) blur(60px)', borderRadius:'200px', zIndex:'0'}} top='-132px' ml={{xxs:'100px', md:'250px'}}></Box>
 
             </Flex>
           </Box>
@@ -103,9 +103,11 @@ function App() {
 
 
             <Box w='100%' h='auto'  pos='relative'>
-                <img src={'./images/live_football.jpg'} alt='live_football' width='100%' height='100%' />
-              <Flex align='center' justify='center' direction='column' gap={'lg'} h='700px' mb='50px'>
-                <Title c='white' style={{cursor:'pointer', textDecoration:'underline'}} onClick={() => window.open('https://lfbtv.com/goatfootball/?k=GgjnsePSvN7Y2Jqb', '_blank')} ta='center'> &gt;&gt; ดูบอลสดคลิก !! &lt;&lt; </Title>
+              <Flex w='100%' align='center' justify='center' mb='lg'>
+                <img src={'./images/live_football.jpg'} alt='live_football' width='90%' height='100%' />
+              </Flex>
+              <Flex align='center' justify='center' direction='column' gap={'lg'} h='650px' mb='md'>
+                {/* <Title c='white' style={{cursor:'pointer', textDecoration:'underline'}} onClick={() => window.open('https://lfbtv.com/goatfootball/?k=GgjnsePSvN7Y2Jqb', '_blank')} ta='center'> &gt;&gt; ดูบอลสดคลิก !! &lt;&lt; </Title> */}
                 <Box h='100%' maw="700px" w='100%'   onClick={() => {window.open('https://lfbtv.com/goatfootball/?k=GgjnsePSvN7Y2Jqb', '_blank') } }>
                   <iframe id="iframe-score108" width="100%" height='100%' style={{maxWidth:'700px', position:'relative', bottom:'0', maxHeight:'650px', pointerEvents:'none', borderRadius:'35px'}} frameBorder="0" scrolling="no" src="https://www.score108.com/soccer/scoreAPI" ref={iframeRef} ></iframe> 
                 </Box>
