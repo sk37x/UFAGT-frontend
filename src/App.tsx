@@ -114,19 +114,19 @@ function App() {
             <Box w='100%' h='100%'>
                 <Flex align='center' justify='center' w='100%' h='100%' direction='column' gap={{md:'lg'}}>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro1.jpg'} className='img-pro' alt='pro1' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro1.jpg'} className={isMobile ? 'img-pro-xs' : 'img-pro-md'} alt='pro1' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro2.jpg'} className='img-pro' alt='pro2' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro2.jpg'} className={isMobile ? 'img-pro-xs' : 'img-pro-md'} alt='pro2' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro3.jpg'} className='img-pro' alt='pro3' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro3.jpg'} className={isMobile ? 'img-pro-xs' : 'img-pro-md'} alt='pro3' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro4.jpg'} className='img-pro' alt='pro4' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro4.jpg'} className={isMobile ? 'img-pro-xs' : 'img-pro-md'} alt='pro4' width={'100%'} height={'100%'}/>
                     </Box>
                     <Box w='100%' h='100%'>
-                      <img src={'./images/pro5.jpg'} className='img-pro' alt='pro5' width={'100%'} height={'100%'}/>
+                      <img src={'./images/pro5.jpg'} className={isMobile ? 'img-pro-xs' : 'img-pro-md'} alt='pro5' width={'100%'} height={'100%'}/>
                     </Box>
                 </Flex>
 

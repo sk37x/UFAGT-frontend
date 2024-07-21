@@ -6,11 +6,13 @@
 }
 
 
-.img-pro {
-  border: 15px solid #c7a66f;
-  border-radius: 50px;
+.img-pro-xs {
+  border: 3pt solid #c7a66f;
+  border-radius: 20px;
 }
 
-.img-pro::after {
-  background:linear-gradient(117deg, rgba(199,166,111,1) 0%, rgba(179,179,179,1) 50%, rgba(199,166,111,1) 100%)
+.img-pro-md {
+  border: 5pt solid #c7a66f;
+  border-radius: 20px;
 }
+
