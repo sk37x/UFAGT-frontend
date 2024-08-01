@@ -78,12 +78,12 @@ function App() {
 
         <Box>
           <Flex h={{xxs:'50px', md:'117px'}}>
-            <Box w='100%' bg='#47A1F8' style={{cursor:'pointer'}} onClick={() => window.open('https://ufagt.mybet789.com/register/', "_blank")}>
+            <Box w='100%' bg='#47A1F8' style={{cursor:'pointer'}} onClick={() => window.open('https://member.ufa-gt.com/register/', "_blank")}>
               <Flex  align={'center'} justify={'center'} h='100%' w='100%'>
                 <Title c='white' fz={{ base:'1rem', sm: '2rem'}}>สมัครสมาชิก</Title>
               </Flex>
             </Box>
-            <Box w='100%' bg='#C70000' style={{cursor:'pointer'}} onClick={() => window.open('https://ufagt.mybet789.com', "_blank")}>
+            <Box w='100%' bg='#C70000' style={{cursor:'pointer'}} onClick={() => window.open('https://member.ufa-gt.com/', "_blank")}>
               <Flex  align={'center'} justify={'center'} h='100%' w='100%'>
                 <Title c='white' fz={{ base:'1rem', sm: '2rem'}}>เข้าสู่ระบบ</Title>
               </Flex>
